@@ -15,6 +15,13 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Characters","order":2,"path":"folders/Sprites/Characters.yy",},
+    {"name":"Enemies","order":3,"path":"folders/Sprites/Enemies.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"spr_draftPerch","order":1,"path":"sprites/spr_draftPerch/spr_draftPerch.yy",},
+    {"name":"spr_draftRanger_Wave","order":3,"path":"sprites/spr_draftRanger_Wave/spr_draftRanger_Wave.yy",},
+    {"name":"spr_draftPerch_2","order":2,"path":"sprites/spr_draftPerch_2/spr_draftPerch_2.yy",},
+    {"name":"spr_draftMountie","order":4,"path":"sprites/spr_draftMountie/spr_draftMountie.yy",},
+  ],
 }
