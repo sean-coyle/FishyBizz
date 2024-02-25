@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_wall",
-  "bbox_bottom": 95,
+  "name": "spr_woodfloor",
+  "bbox_bottom": 15,
   "bbox_left": 0,
-  "bbox_right": 88,
-  "bbox_top": 9,
+  "bbox_right": 15,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9854760f-7abc-4df8-a0f5-f46af29a0976",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6937af66-506f-4ed5-87d7-7855e2e5ff94",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 128,
+  "height": 16,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"489449c2-11d8-406a-aecf-12eabc0d3e3a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6c7fba94-76f9-4c0d-8af6-e567f27d46b6","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_wall",
+    "name": "spr_woodfloor",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9854760f-7abc-4df8-a0f5-f46af29a0976","path":"sprites/spr_wall/spr_wall.yy",},},},"Disabled":false,"id":"40634a8f-491b-4ebd-9e3b-22398f5de8f9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6937af66-506f-4ed5-87d7-7855e2e5ff94","path":"sprites/spr_woodfloor/spr_woodfloor.yy",},},},"Disabled":false,"id":"7b9532da-a6c4-449e-b087-ab5ff2e92128","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 128,
+  "width": 16,
 }
