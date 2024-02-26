@@ -16,9 +16,16 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"old","order":2,"path":"folders/Sprites/old.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_wall","order":4,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"spr_woodfloor","order":6,"path":"sprites/spr_woodfloor/spr_woodfloor.yy",},
     {"name":"enemy_test_spr","order":2,"path":"sprites/enemy_test_spr/enemy_test_spr.yy",},
+    {"name":"spr_water","order":5,"path":"sprites/spr_water/spr_water.yy",},
+    {"name":"spr_decor","order":1,"path":"sprites/spr_decor/spr_decor.yy",},
+    {"name":"spr_fencevert","order":3,"path":"sprites/spr_fencevert/spr_fencevert.yy",},
+    {"name":"spr_testPlayer","order":7,"path":"sprites/spr_testPlayer/spr_testPlayer.yy",},
     {"name":"obj_basic_enemy","order":1,"path":"objects/obj_basic_enemy/obj_basic_enemy.yy",},
   ],
 }
