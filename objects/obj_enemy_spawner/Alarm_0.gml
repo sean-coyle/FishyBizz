@@ -3,6 +3,10 @@
 
 // used for spawning another enemy
 
-instance_create_layer(x,y,"Instances",enemy_type)
+
+if enemies_left >= 1 {
+	instance_create_layer(x,y,"Instances",enemy_type)
+	enemies_left -= 1
+}
 
 alarm[0] = spawn_rate
