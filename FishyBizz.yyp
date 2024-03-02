@@ -42,6 +42,7 @@
     {"id":{"name":"deal_damage","path":"scripts/deal_damage/deal_damage.yy",},},
     {"id":{"name":"obj_enemy_spawner","path":"objects/obj_enemy_spawner/obj_enemy_spawner.yy",},},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},},
+    {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},},
     {"id":{"name":"spr_decor","path":"sprites/spr_decor/spr_decor.yy",},},
     {"id":{"name":"spr_fencevert","path":"sprites/spr_fencevert/spr_fencevert.yy",},},
     {"id":{"name":"spr_testPlayer","path":"sprites/spr_testPlayer/spr_testPlayer.yy",},},

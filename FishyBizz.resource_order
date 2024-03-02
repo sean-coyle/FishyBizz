@@ -23,6 +23,7 @@
     {"name":"spr_woodfloor","order":6,"path":"sprites/spr_woodfloor/spr_woodfloor.yy",},
     {"name":"enemy_test_spr","order":2,"path":"sprites/enemy_test_spr/enemy_test_spr.yy",},
     {"name":"spr_water","order":5,"path":"sprites/spr_water/spr_water.yy",},
+    {"name":"obj_water","order":2,"path":"objects/obj_water/obj_water.yy",},
     {"name":"spr_decor","order":1,"path":"sprites/spr_decor/spr_decor.yy",},
     {"name":"spr_fencevert","order":3,"path":"sprites/spr_fencevert/spr_fencevert.yy",},
     {"name":"spr_testPlayer","order":7,"path":"sprites/spr_testPlayer/spr_testPlayer.yy",},
