@@ -15,3 +15,4 @@ basicFish = 0;
 codFish = 0;
 salmonFish = 0;
 
+fishing = false;

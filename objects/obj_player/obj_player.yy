@@ -32,6 +32,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"player_speed","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"6","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"health","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"100","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"collection_rate","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.01","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"base_collection_rate","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.01","varType":0,},
   ],
   "solid": false,
   "spriteId": {
