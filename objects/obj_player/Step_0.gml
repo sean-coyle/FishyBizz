@@ -29,18 +29,21 @@ if (state == States.Regular){
 	if keyboard_check_pressed(ord("E")){
 		if instance_exists(fishingTarget) {
 			state = States.Fishing;
+			src_minigame(x,y, layer);
 		}
 	}
 
 }
 
 else if(state == States.Fishing) {
+	
 	if keyboard_check_pressed(ord("E")){
 		state = States.Regular;
 		basicFish = round(basicFish);
+		fishing = false;
 		show_debug_message(basicFish);
+		//instance_destroy(obj_minigame);
 	}
 	//temp for now will rework later
 	basicFish += collection_rate;
-	
 }
