@@ -11,10 +11,28 @@ if (state == States.Regular){
 	var yUp =  keyboard_check(ord("W")) or keyboard_check(vk_up);
 	var yDown = keyboard_check(ord("S")) or keyboard_check(vk_down);
 
-	if xRight { x+= player_speed; }
-	if xleft { x-= player_speed; }
-	if yUp { y-= player_speed; }
-	if yDown { y+= player_speed; }
+	if xRight { 
+		x+= player_speed;
+		image_speed = player_speed / 2;
+		sprite_index  = spr_player_right;
+	}
+	if xleft { 
+		x-= player_speed; 
+		image_speed = player_speed / 2;
+		sprite_index  = spr_player_left;
+	}
+	if yUp { 
+		y-= player_speed; 
+		image_speed = player_speed / 2;
+		sprite_index  = spr_player_up;
+	}
+	if yDown { 
+		y+= player_speed; 
+		image_speed = player_speed / 2;
+		sprite_index  = spr_player_dwn;
+	}
+	
+	image_speed = 0;
 	
 	var distance = 60;
 	fishingTarget = noone;
@@ -36,14 +54,21 @@ if (state == States.Regular){
 }
 
 else if(state == States.Fishing) {
-	
 	if keyboard_check_pressed(ord("E")){
 		state = States.Regular;
-		basicFish = round(basicFish);
+		global.basicFish += round(basicFish);
+		global.salmonFish += round(salmonFish);
+		global.codFish += round(codFish);
 		fishing = false;
-		show_debug_message(basicFish);
 		//instance_destroy(obj_minigame);
 	}
-	//temp for now will rework later
-	basicFish += collection_rate;
+	
+	basicFish += collection_rate * global.collectionModifer;
+	if(fishingTarget.id == obj_water_cod.id){
+		codFish += collection_rate * global.collectionModifer;
+	}
+	
+	if(fishingTarget.id == obj_water_salmon.id){
+		salmonFish += collection_rate * global.collectionModifer;
+	}
 }
