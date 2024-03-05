@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "deal_damage",
+  "name": "get_unix_time",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
