@@ -3,5 +3,5 @@
 
 alarm[0] = spawn_rate
 
-max_enemy_count = wave*enemy_per_level
+max_enemy_count = obj_game_controller.wave*enemy_per_level
 enemies_left = max_enemy_count
