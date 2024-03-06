@@ -8,8 +8,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},"propertyId":{"name":"fishType","path":"objects/obj_water/obj_water.yy",},"value":"cod",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Blocks",
+    "path": "folders/Objects/Blocks.yy",
   },
   "parentObjectId": {
     "name": "obj_water",
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "spr_water11",
-    "path": "sprites/spr_water11/spr_water11.yy",
+    "name": "spr_water",
+    "path": "sprites/spr_water/spr_water.yy",
   },
   "spriteMaskId": null,
   "visible": false,

@@ -1,15 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_water",
-  "eventList": [],
+  "name": "obj_merchantDialogA",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Objects/Blocks.yy",
+    "name": "dialog",
+    "path": "folders/Objects/Merchant/dialog.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_Dialog",
+    "path": "objects/obj_Dialog/obj_Dialog.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -23,14 +28,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"fishType","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"basic","varType":2,},
-  ],
-  "solid": true,
-  "spriteId": {
-    "name": "spr_water",
-    "path": "sprites/spr_water/spr_water.yy",
-  },
+  "properties": [],
+  "solid": false,
+  "spriteId": null,
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

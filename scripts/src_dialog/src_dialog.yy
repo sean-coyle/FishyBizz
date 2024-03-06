@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "src_minigame",
+  "name": "src_dialog",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "FishingMinigame",
-    "path": "folders/Objects/FishingMinigame.yy",
+    "name": "Dialog",
+    "path": "folders/Objects/Controllers/Dialog.yy",
   },
 }

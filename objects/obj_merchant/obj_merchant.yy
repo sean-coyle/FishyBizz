@@ -1,13 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_water",
-  "eventList": [],
+  "name": "obj_merchant",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Objects/Blocks.yy",
+    "name": "Merchant",
+    "path": "folders/Objects/Merchant.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -23,14 +26,12 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"fishType","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"basic","varType":2,},
-  ],
-  "solid": true,
+  "properties": [],
+  "solid": false,
   "spriteId": {
-    "name": "spr_water",
-    "path": "sprites/spr_water/spr_water.yy",
+    "name": "spr_merchant_down",
+    "path": "sprites/spr_merchant_down/spr_merchant_down.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
