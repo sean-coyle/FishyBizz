@@ -47,16 +47,31 @@ if (state == States.Regular){
 		} 
 	}
 	
-	if keyboard_check_pressed(ord("E")){
-		if instance_exists(fishingTarget) {
-			state = States.Fishing;
-			src_minigame(x,y, layer);
+	talkingTarget = noone;
+	with(obj_merchant){
+		var merchDistance = point_distance(x,y, other.x,other.y);
+		if(merchDistance < distance){
+			distance = merchDistance;
+			other.talkingTarget  = id;
 		}
 	}
+	
+		if keyboard_check_pressed(ord("E")){
+			if instance_exists(fishingTarget) {
+				state = States.Fishing;
+				src_minigame(x,y, layer);
+			}
+		
+			if instance_exists(talkingTarget) {
+				state = States.Talking;
+				with(obj_merchant){
+					self.talking = true;
+					instance_create_depth(x, y - 10, self.depth + 1, self.dialog);
+				}
+			}
+		}
 
-}
-
-else if(state == States.Fishing) {
+} else if(state == States.Fishing) {
 	if keyboard_check_pressed(ord("E")){
 		state = States.Regular;
 		global.basicFish += round(basicFish);
@@ -74,4 +89,13 @@ else if(state == States.Fishing) {
 	} else {
 		basicFish += collection_rate * global.collectionModifer;
 	}
+} else if(state == States.Talking){
+	if keyboard_check_pressed(ord("E")){
+		state = States.Regular;
+		with(obj_merchant){
+				self.talking = false;
+		}
+	}
 }
+
+

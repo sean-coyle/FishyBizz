@@ -7,13 +7,14 @@ global.salmonFish = 0;
 
 enum States{
 	Fishing,
-	Attacking,
+	Talking,
 	Regular, // default is a keyword :(
 }
 
 
 state = States.Regular;
 fishingTarget = noone;
+talkingTarget = noone;
 
 basicFish = 0;
 codFish = 0;
