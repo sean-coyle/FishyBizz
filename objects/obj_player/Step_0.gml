@@ -1,11 +1,10 @@
-/// @description Insert description here
+/// @description player object
 // You can write your code in this editor
 x = clamp(x, sprite_width/2, room_width - sprite_width/2);
 
 y = clamp(y, sprite_height/2, room_height - sprite_height/2);
 
-
-if self.health <= 0 {
+if hp <= 0 {
 	instance_destroy(self);
 }
 
@@ -27,12 +26,12 @@ if (state == States.Regular){
 	}
 	if yUp { 
 		y-= player_speed; 
-		image_speed = player_speed / 2;
+		image_speed = player_speed / 10;
 		sprite_index  = spr_player_up;
 	}
 	if yDown { 
 		y+= player_speed; 
-		image_speed = player_speed / 2;
+		image_speed = player_speed / 10;
 		sprite_index  = spr_player_dwn;
 	}
 	
@@ -67,12 +66,12 @@ else if(state == States.Fishing) {
 		//instance_destroy(obj_minigame);
 	}
 	
-	basicFish += collection_rate * global.collectionModifer;
-	if(fishingTarget.id == obj_water_cod.id){
-		codFish += collection_rate * global.collectionModifer;
-	}
 	
-	if(fishingTarget.id == obj_water_salmon.id){
+	if(fishingTarget.fishType == "cod"){
+		codFish += collection_rate * global.collectionModifer;
+	} else if(fishingTarget.fishType == "salmon"){
 		salmonFish += collection_rate * global.collectionModifer;
+	} else {
+		basicFish += collection_rate * global.collectionModifer;
 	}
 }
