@@ -12,7 +12,7 @@ if !alarm[0] {
 	speed = lerp(speed, spd, 0.5)
 
 	//deal_damage(obj_player, attack_damage)
-	obj_player.health -= attack_damage
+	obj_player.hp -= attack_damage
 	
 	alarm[0] = attack_speed
 }

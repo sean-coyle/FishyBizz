@@ -5,6 +5,6 @@ function src_minigame(x, y, layer){
 		instance_destroy(obj_bobble);
 		instance_destroy(obj_minigame);
 	}
-	instance_create_layer(x,y,"Instances", obj_minigame);
+	instance_create_layer(x,y,"MiniGame", obj_minigame);
 	return 0;
 }
