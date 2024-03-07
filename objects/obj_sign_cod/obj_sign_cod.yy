@@ -1,19 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_merchantDialogA",
+  "name": "obj_sign_cod",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "dialog",
-    "path": "folders/Objects/Merchant/dialog.yy",
+    "name": "Signs",
+    "path": "folders/Objects/Signs.yy",
   },
   "parentObjectId": {
-    "name": "obj_Dialog",
-    "path": "objects/obj_Dialog/obj_Dialog.yy",
+    "name": "obj_sign",
+    "path": "objects/obj_sign/obj_sign.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_sign",
+    "path": "sprites/spr_sign/spr_sign.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

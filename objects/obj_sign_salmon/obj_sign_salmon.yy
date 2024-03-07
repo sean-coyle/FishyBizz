@@ -1,16 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_merchant",
+  "name": "obj_sign_salmon",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Merchant",
-    "path": "folders/Objects/Merchant.yy",
+    "name": "Signs",
+    "path": "folders/Objects/Signs.yy",
   },
   "parentObjectId": {
     "name": "obj_sign",
@@ -32,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_merchant_down",
-    "path": "sprites/spr_merchant_down/spr_merchant_down.yy",
+    "name": "spr_sign",
+    "path": "sprites/spr_sign/spr_sign.yy",
   },
   "spriteMaskId": null,
   "visible": true,

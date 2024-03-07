@@ -2,7 +2,7 @@
   "resourceType": "GMPath",
   "resourceVersion": "1.0",
   "name": "path_merchant",
-  "closed": false,
+  "closed": true,
   "kind": 0,
   "parent": {
     "name": "path",
@@ -20,7 +20,7 @@
     {"speed":100.0,"x":290.27213,"y":133.8016,},
     {"speed":100.0,"x":305.33374,"y":133.8016,},
     {"speed":100.0,"x":305.3337,"y":88.31296,},
-    {"speed":100.0,"x":305.3337,"y":67.829544,},
+    {"speed":100.0,"x":304.3337,"y":66.82954,},
   ],
   "precision": 4,
 }

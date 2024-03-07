@@ -1,20 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_merchant",
+  "name": "dialog_Merchant1",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Merchant",
-    "path": "folders/Objects/Merchant.yy",
+    "name": "dialog",
+    "path": "folders/Objects/Merchant/dialog.yy",
   },
   "parentObjectId": {
-    "name": "obj_sign",
-    "path": "objects/obj_sign/obj_sign.yy",
+    "name": "obj_Dialog",
+    "path": "objects/obj_Dialog/obj_Dialog.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_merchant_down",
-    "path": "sprites/spr_merchant_down/spr_merchant_down.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
