@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 global.collectionModifer = 0.01;
-global.basicFish = 0;
-global.codFish = 0;
-global.salmonFish = 0;
+global.basicFish = 100;
+global.codFish = 25;
+global.salmonFish = 25;
 
 enum States{
 	Fishing,
@@ -15,6 +15,10 @@ enum States{
 state = States.Regular;
 fishingTarget = noone;
 talkingTarget = noone;
+storeTarget = noone;
+
+canPurchase = false;
+
 
 basicFish = 0;
 codFish = 0;
