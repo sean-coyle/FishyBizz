@@ -43,6 +43,11 @@ if (state == States.Regular){
 	}
 	
 	
+	//targets
+	fishingTarget = noone;
+	storeTarget = noone;
+	talkingTarget = noone;
+	
 	
 	//Here we deal with how the player knows what object its interacting with
 	var distance = 45;
