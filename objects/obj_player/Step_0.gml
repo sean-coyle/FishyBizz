@@ -38,7 +38,7 @@ if (state == States.Regular){
 	var distance = 45;
 	fishingTarget = noone;
 	talkingTarget = noone;
-	
+	storeTarget = noone;
 	with(obj_water){
 		var waterDistance = point_distance(x,y, other.x,other.y);
 		//cant fish and talk
@@ -49,6 +49,18 @@ if (state == States.Regular){
 			} 
 		}
 		
+	}
+	
+	
+	var storeDistance = 45;
+	with(obj_medpac){
+		var itemDistance = point_distance(x,y, other.x,other.y);
+		if(other.storeTarget == noone){
+			if(itemDistance < storeDistance){
+				storeDistance = waterDistance;
+				other.storeTarget  = id;
+			} 
+		}
 	}
 	
 	var distanceTolerance = 40;
