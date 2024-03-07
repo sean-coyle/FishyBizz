@@ -3,9 +3,9 @@
 function Dialogue() constructor{
 	dialogs = [];
 	
-	add = function(_sprite, _message){
+	add = function(dialogColor, _message){
 		array_push(dialogs, {
-			sprite: _sprite, 
+			color: dialogColor, 
 			msg: _message,
 		});
 	}
