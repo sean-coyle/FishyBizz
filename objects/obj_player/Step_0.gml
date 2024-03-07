@@ -18,40 +18,43 @@ if (state == States.Regular){
 		x+= player_speed;
 		image_speed = player_speed / 2;
 		sprite_index  = spr_player_right;
+		
 	}
 	if xleft { 
 		x-= player_speed; 
-		image_speed = player_speed / 2;
 		sprite_index  = spr_player_left;
 	}
 	if yUp { 
 		y-= player_speed; 
-		image_speed = player_speed / 10;
 		sprite_index  = spr_player_up;
 	}
 	if yDown { 
 		y+= player_speed; 
-		image_speed = player_speed / 10;
 		sprite_index  = spr_player_dwn;
 	}
 	
 	image_speed = 0;
 	
-	var distance = 60;
+	var distance = 45;
 	fishingTarget = noone;
+	talkingTarget = noone;
+	
 	with(obj_water){
 		var waterDistance = point_distance(x,y, other.x,other.y);
-		if(waterDistance < distance){
-			distance = waterDistance;
-			other.fishingTarget  = id;
-		} 
+		//cant fish and talk
+		if(other.talkingTarget == noone){
+			if(waterDistance < distance){
+				distance = waterDistance;
+				other.fishingTarget  = id;
+			} 
+		}
+		
 	}
 	
-	talkingTarget = noone;
-	with(obj_merchant){
-		var merchDistance = point_distance(x,y, other.x,other.y);
-		if(merchDistance < distance){
-			distance = merchDistance;
+	var distanceTolerance = 40;
+	with(obj_sign){
+		var signDistance = point_distance(x,y, other.x,other.y);
+		if(signDistance <= distanceTolerance){
 			other.talkingTarget  = id;
 		}
 	}
@@ -64,7 +67,7 @@ if (state == States.Regular){
 		
 			if instance_exists(talkingTarget) {
 				state = States.Talking;
-				with(obj_merchant){
+				with(talkingTarget){
 					self.talking = true;
 					instance_create_depth(x, y - 10, self.depth + 1, self.dialog);
 				}
@@ -92,7 +95,7 @@ if (state == States.Regular){
 } else if(state == States.Talking){
 	if keyboard_check_pressed(ord("E")){
 		state = States.Regular;
-		with(obj_merchant){
+		with(talkingTarget){
 				self.talking = false;
 		}
 	}

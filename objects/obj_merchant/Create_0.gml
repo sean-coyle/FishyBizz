@@ -5,9 +5,9 @@ prevX = x;
 prevY = y;
 
 talking = false;
-dialog = obj_merchantDialogA;
+dialog = dialog_Merchant1;
 
-path_start(path_merchant, 1, path_action_reverse, true)
+path_start(path_merchant, 1, path_action_continue, true)
 
 
 
