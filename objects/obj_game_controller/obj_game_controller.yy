@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"round_length_minutes","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"12","varType":1,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"round_length_minutes","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":10.0,"rangeMin":5.0,"value":"10","varType":1,},
   ],
   "solid": false,
   "spriteId": null,

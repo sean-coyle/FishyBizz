@@ -2,10 +2,9 @@
 // You can write your code in this editor
 
 global.wave = 1
-global.time = 1
+global.time = 0
 
-round_start_time = get_unix_time()
-
+//round_start_time = get_unix_time()
 
 global.wave_begin = true
 
