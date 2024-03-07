@@ -3,9 +3,14 @@
 
 // used for spawning another enemy
 
+var _random_enemy_choice = 0
 
 if enemies_left > 0 {
-	instance_create_layer(x,y,"Instances",enemy_type)
+	_random_enemy_choice = irandom_range(1,101)
+	if _random_enemy_choice <= melee_percentage
+		instance_create_layer(x,y,layer,enemy_type1)
+	else
+		instance_create_layer(x,y,layer,enemy_type2)
 	enemies_left -= 1
 }
 else {
