@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+//globals for amount of fish and collection modifer
 global.collectionModifer = 0.01;
-global.basicFish = 100;
-global.codFish = 25;
-global.salmonFish = 25;
+global.basicFish = 0;
+global.codFish = 0;
+global.salmonFish = 0;
 
 enum States{
 	Fishing,
@@ -13,6 +15,8 @@ enum States{
 
 
 state = States.Regular;
+
+
 fishingTarget = noone;
 talkingTarget = noone;
 storeTarget = noone;
@@ -27,4 +31,3 @@ salmonFish = 0;
 fishing = false;
 hits = 0;
 
-image_speed = 0;

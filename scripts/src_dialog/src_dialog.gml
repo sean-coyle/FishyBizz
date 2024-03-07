@@ -1,4 +1,5 @@
 // Script assets have changed for v2.3.0 see
+// This script is modiefed from an offical gamemaker video
 // referenced this video from GameMakers offical Youtube Channel: https://youtu.be/k3AAxKOl-yU?si=M42elMeXAqBc9UKe
 function Dialogue() constructor{
 	dialogs = [];

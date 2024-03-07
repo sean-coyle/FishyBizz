@@ -3,7 +3,6 @@
 
 //want to change image based on direction of object
 // if y is negative y < prevY, pos y> prevY same for x
-
 if(y > prevY){
 	sprite_index = spr_merchant_down;
 } else if(y < prevY){
@@ -20,6 +19,7 @@ if(x > prevX){
 prevX = x;
 prevY = y;
 
+//flag for knowing if its talking, player will change this 
 if(talking){
 	path_speed = 0;
 } else {
@@ -27,6 +27,7 @@ if(talking){
 }
 
 
+//Logic for tutorial
 if(room == TutorialArea){
 	if(global.basicFish > 0 and self.dialog != dialog_MerchantTutorial3){
 		dialog = dialog_MerchantTutorial2;
