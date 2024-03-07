@@ -10,6 +10,5 @@ showDialog = false;
 dialogColor = c_white;
 current_dialog = {};
 
-alpha = 0;
 
 
