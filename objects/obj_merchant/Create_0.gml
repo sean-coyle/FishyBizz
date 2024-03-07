@@ -6,8 +6,12 @@ prevY = y;
 
 talking = false;
 dialog = dialog_Merchant1;
-
-path_start(path_merchant, 1, path_action_continue, true)
+path_start(path_merchant, 2, path_action_continue, false);
+if(room == TutorialArea){
+	dialog = dialog_MerchantTutorial1;
+	keyboard_key_press(ord("E"));
+	keyboard_key_release(ord("E"));
+}
 
 
 

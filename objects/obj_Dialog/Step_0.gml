@@ -9,9 +9,8 @@ if(showDialog == false){
 	current_dialog = dialog.pop();
 	showDialog = true;
 } else {
-	if(keyboard_check(nextKey)){
+	if(keyboard_check_released(nextKey)){
 		showDialog = false;
-		alpha = 0;
 	}
 }
 
