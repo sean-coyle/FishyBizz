@@ -11,17 +11,17 @@ var basic = false;
 var cod = false;
 var salmon = false;
 if(self.purchase_fish == "basic"){
-	canPurchase = (global.basicFish - self.cost >= 0) ? true : false;
+	canPurchase = (obj_player.basicFish - self.cost >= 0) ? true : false;
 	basic = true;
 }
 				
 if(self.purchase_fish == "cod"){
-	canPurchase = (global.codFish - self.cost >= 0) ? true : false;
+	canPurchase = (obj_player.codFish - self.cost >= 0) ? true : false;
 	cod = true;
 }
 				
 if(self.purchase_fish == "salmon"){
-	canPurchase = (global.salmonFish - self.cost >= 0) ? true : false;
+	canPurchase = (obj_player.salmonFish - self.cost >= 0) ? true : false;
 	salmon = true;
 }
 	
@@ -31,7 +31,7 @@ if(showInfo and canPurchase){
 	if(keyboard_check_released(ord("E"))){
 		//cod is related to iron fish
 		if(cod){
-			global.codFish -= self.cost;
+			obj_player.codFish -= self.cost;
 			//add buff
 			obj_player.hits = 4;
 			if(!multiple_purchase){
@@ -41,7 +41,7 @@ if(showInfo and canPurchase){
 		
 		//salmon golden rod
 		if(salmon){
-			global.salmonFish -= self.cost;
+			obj_player.salmonFish -= self.cost;
 			//add buff
 			obj_player.collection_rate = 0.5;
 			if(!multiple_purchase){
@@ -51,7 +51,7 @@ if(showInfo and canPurchase){
 		
 		//basic healthpack
 		if(basic){
-			global.basicFish -= self.cost;
+			obj_player.basicFish -= self.cost;
 			//add buff
 			show_debug_message(obj_player.hp)
 			obj_player.hp += 25;

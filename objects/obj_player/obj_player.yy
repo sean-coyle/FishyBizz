@@ -38,6 +38,7 @@
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"melee_range","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"60","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"ranged_range","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"100","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"melee_damage","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"10","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"durability","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"2","varType":0,},
   ],
   "solid": false,
   "spriteId": {

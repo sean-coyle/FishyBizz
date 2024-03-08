@@ -34,6 +34,7 @@
     {"name":"tilesets","order":8,"path":"folders/Sprites/tilesets.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"GUI","order":11,"path":"folders/Objects/GUI.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"get_unix_time","order":2,"path":"scripts/get_unix_time/get_unix_time.yy",},
@@ -84,6 +85,7 @@
     {"name":"spr_ironFish","order":1,"path":"sprites/spr_ironFish/spr_ironFish.yy",},
     {"name":"obj_water_salmon","order":3,"path":"objects/obj_water_salmon/obj_water_salmon.yy",},
     {"name":"spr_water","order":1,"path":"sprites/spr_water/spr_water.yy",},
+    {"name":"fn_default","order":1,"path":"fonts/fn_default/fn_default.yy",},
     {"name":"spr_sign","order":2,"path":"sprites/spr_sign/spr_sign.yy",},
     {"name":"obj_water_cod","order":2,"path":"objects/obj_water_cod/obj_water_cod.yy",},
     {"name":"dialog_MerchantTutorial3","order":3,"path":"objects/dialog_MerchantTutorial3/dialog_MerchantTutorial3.yy",},

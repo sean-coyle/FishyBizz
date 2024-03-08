@@ -29,5 +29,6 @@ codFish = 0;
 salmonFish = 0;
 
 fishing = false;
+
 hits = 0;
 
