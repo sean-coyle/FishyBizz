@@ -23,23 +23,24 @@ if (state == States.Regular){
 	if(xRight) { 
 		x+= player_speed;
 		image_speed = 2
-		sprite_index  = spr_player_right;
+		sprite_index  = spr_player_walk;
+		image_xscale = -1;
 		
 	} 
 	if (xleft) { 
 		x-= player_speed; 
-		image_speed = 2
-		sprite_index  = spr_player_left;
+		sprite_index  = spr_player_walk;
+		image_xscale = 1;
 	}
 	if (yUp) { 
 		y-= player_speed; 
-		image_speed = .01
-		sprite_index  = spr_player_up;
+		image_speed = 2
+		sprite_index  = spr_player_walk_up;
 	}
 	if (yDown) { 
 		y+= player_speed; 
 		image_speed = 2
-		sprite_index  = spr_player_dwn;
+		sprite_index  = spr_player_walk_down;
 	}
 	
 	
