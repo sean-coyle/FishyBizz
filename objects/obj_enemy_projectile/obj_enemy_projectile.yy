@@ -33,8 +33,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_fish_bullet",
-    "path": "sprites/spr_fish_bullet/spr_fish_bullet.yy",
+    "name": "spr_enemy_bullet",
+    "path": "sprites/spr_enemy_bullet/spr_enemy_bullet.yy",
   },
   "spriteMaskId": null,
   "visible": true,

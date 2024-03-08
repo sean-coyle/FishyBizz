@@ -36,8 +36,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_enemy_down",
-    "path": "sprites/spr_enemy_down/spr_enemy_down.yy",
+    "name": "spr_path_enemy",
+    "path": "sprites/spr_path_enemy/spr_path_enemy.yy",
   },
   "spriteMaskId": null,
   "visible": true,
