@@ -67,6 +67,7 @@
     {"id":{"name":"spr_overworld_1","path":"sprites/spr_overworld_1/spr_overworld_1.yy",},},
     {"id":{"name":"obj_goldenfishingrod","path":"objects/obj_goldenfishingrod/obj_goldenfishingrod.yy",},},
     {"id":{"name":"obj_sign_cod","path":"objects/obj_sign_cod/obj_sign_cod.yy",},},
+    {"id":{"name":"spr_player_melee","path":"sprites/spr_player_melee/spr_player_melee.yy",},},
     {"id":{"name":"spr_merchant_down","path":"sprites/spr_merchant_down/spr_merchant_down.yy",},},
     {"id":{"name":"spr_enemy_right","path":"sprites/spr_enemy_right/spr_enemy_right.yy",},},
     {"id":{"name":"pth_enemy_patrol","path":"paths/pth_enemy_patrol/pth_enemy_patrol.yy",},},

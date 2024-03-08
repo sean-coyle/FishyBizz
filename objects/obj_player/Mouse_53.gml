@@ -29,8 +29,9 @@ if(obj_player.basicFish > 0){
 		distance = point_distance(x,y, combatTarget.x, combatTarget.y);
 		if(distance <= obj_player.melee_range){
 			if(angleDiff <= angleTolerance){
+				sprite_index = spr_player_melee;
 				combatTarget.hp -= obj_player.melee_damage;
-			
+				
 				if(hits > self.durability){
 					obj_player.basicFish--; 
 					hits = 0; 

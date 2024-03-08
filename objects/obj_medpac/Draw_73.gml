@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if(showInfo){
 	var msg = self.purchase_msg;
 	draw_set_font(fn_store);
