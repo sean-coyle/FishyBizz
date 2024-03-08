@@ -107,13 +107,18 @@ if (state == States.Regular){
 }
 //FISHING STATE
 else if(state == States.Fishing) {
+	//adding in check for knowing if wave should start
+	if(!global.wave_begin and self.basicFish > 0){
+		global.wave_begin = true;
+	}
+	
 	//player stops fishing by pressing E
 	if keyboard_check_pressed(ord("E")){
 		state = States.Regular;
 		//because fishing rate is a float we want to round before we update the globals
-		self.basicFish += round(basicFish);
-		self.salmonFish += round(salmonFish);
-		self.codFish += round(codFish);
+		self.basicFish = round(basicFish);
+		self.salmonFish = round(salmonFish);
+		self.codFish = round(codFish);
 		fishing = false; // no longer fishing (note: not sure why this exists at one point it had a use but now im not sure but im not deleting it in case it does lol)
 		//instance_destroy(obj_minigame);
 	}
@@ -121,10 +126,16 @@ else if(state == States.Fishing) {
 	//logic for knowing what fish we are catching
 	if(fishingTarget.fishType == "cod"){
 		codFish += collection_rate * global.collectionModifer;
+		basicFish += random(collection_rate);
+		salmonFish += random(collection_rate);
 	} else if(fishingTarget.fishType == "salmon"){
 		salmonFish += collection_rate * global.collectionModifer;
+		basicFish += random(collection_rate);
+		codFish += random(collection_rate);
 	} else {
 		basicFish += collection_rate * global.collectionModifer;
+		codFish += random(collection_rate)
+		salmonFish += random(collection_rate);
 	}
 	
 	
