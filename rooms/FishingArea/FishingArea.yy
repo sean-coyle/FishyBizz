@@ -112,9 +112,10 @@
     {"name":"inst_3D56C678","path":"rooms/FishingArea/FishingArea.yy",},
     {"name":"inst_3D0443F6","path":"rooms/FishingArea/FishingArea.yy",},
     {"name":"inst_28AE23BB","path":"rooms/FishingArea/FishingArea.yy",},
+    {"name":"inst_5A702035","path":"rooms/FishingArea/FishingArea.yy",},
+    {"name":"inst_71988464","path":"rooms/FishingArea/FishingArea.yy",},
     {"name":"inst_67597E3C","path":"rooms/FishingArea/FishingArea.yy",},
     {"name":"inst_12033E6","path":"rooms/FishingArea/FishingArea.yy",},
-    {"name":"inst_5A702035","path":"rooms/FishingArea/FishingArea.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -234,8 +235,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1D252262","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sign_salmon","path":"objects/obj_sign_salmon/obj_sign_salmon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":931.0,"y":131.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_272FE0FC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sign_cod","path":"objects/obj_sign_cod/obj_sign_cod.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":783.0,"y":546.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28AE23BB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_path_enemy","path":"objects/obj_path_enemy/obj_path_enemy.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":160.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_67597E3C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pause_game","path":"objects/obj_pause_game/obj_pause_game.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":256.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_67597E3C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_pause_game","path":"objects/obj_pause_game/obj_pause_game.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5A702035","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1344.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_71988464","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_enemy_spawner","path":"objects/obj_enemy_spawner/obj_enemy_spawner.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":704.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_3","depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
 -185,-2147483648,-5,0,-81,-2147483648,-5,0,-81,-2147483648,-5,0,-81,-2147483648,-5,0,-81,-2147483648,-5,0,-81,-2147483648,-5,0,-3508,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tile_overworld","path":"tilesets/tile_overworld/tile_overworld.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},

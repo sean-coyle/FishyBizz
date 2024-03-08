@@ -27,7 +27,7 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spawn_rate","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"300","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"spawn_rate","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"200","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"enemy_per_level","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":true,"rangeMax":100.0,"rangeMin":1.0,"value":"10","varType":1,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"enemy_type1","filters":[
         "GMObject",

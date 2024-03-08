@@ -15,7 +15,7 @@ if enemies_left > 0 {
 }
 else {
 	if global.wave_begin == true {
-		wave++
+		global.wave++
 		max_enemy_count = global.wave*enemy_per_level
 		enemies_left = max_enemy_count
 	}

@@ -5,6 +5,19 @@ if global.time > round_length_minutes {
 	global.round_over = true
 }
 
+if instance_exists(obj_enemy_spawner) {
+	if obj_enemy_spawner.enemies_left == 0 and time_at_end_of_wave == -1 {
+		time_at_end_of_wave = global.time
+		
+	}
+}
+
+if time_at_end_of_wave != -1 {
+	if global.time >= time_at_end_of_wave + 3 {
+		global.wave_begin = true
+	}
+}
+
 // all this code is deprecated now, but i dont wanna remove it
 
 //var _current_time = get_unix_time()
