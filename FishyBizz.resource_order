@@ -80,6 +80,7 @@
     {"name":"spr_med","order":2,"path":"sprites/spr_med/spr_med.yy",},
     {"name":"dialog_MerchantTutorial2","order":2,"path":"objects/dialog_MerchantTutorial2/dialog_MerchantTutorial2.yy",},
     {"name":"obj_enemy_projectile","order":4,"path":"objects/obj_enemy_projectile/obj_enemy_projectile.yy",},
+    {"name":"obj_pause_game","order":2,"path":"objects/obj_pause_game/obj_pause_game.yy",},
     {"name":"spr_ironFish","order":1,"path":"sprites/spr_ironFish/spr_ironFish.yy",},
     {"name":"obj_water_salmon","order":3,"path":"objects/obj_water_salmon/obj_water_salmon.yy",},
     {"name":"spr_water","order":1,"path":"sprites/spr_water/spr_water.yy",},

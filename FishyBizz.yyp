@@ -116,6 +116,7 @@
     {"id":{"name":"dialog_MerchantTutorial2","path":"objects/dialog_MerchantTutorial2/dialog_MerchantTutorial2.yy",},},
     {"id":{"name":"spr_goldenFishingRod","path":"sprites/spr_goldenFishingRod/spr_goldenFishingRod.yy",},},
     {"id":{"name":"obj_enemy_projectile","path":"objects/obj_enemy_projectile/obj_enemy_projectile.yy",},},
+    {"id":{"name":"obj_pause_game","path":"objects/obj_pause_game/obj_pause_game.yy",},},
     {"id":{"name":"dialog_salmon_sign1","path":"objects/dialog_salmon_sign1/dialog_salmon_sign1.yy",},},
     {"id":{"name":"spr_ironFish","path":"sprites/spr_ironFish/spr_ironFish.yy",},},
     {"id":{"name":"obj_water_salmon","path":"objects/obj_water_salmon/obj_water_salmon.yy",},},
