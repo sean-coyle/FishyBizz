@@ -108,11 +108,7 @@ if (state == States.Regular){
 }
 //FISHING STATE
 else if(state == States.Fishing) {
-	//adding in check for knowing if wave should start
-	if(!global.wave_begin and self.basicFish > 0){
-		global.wave_begin = true;
-	}
-	
+
 	//player stops fishing by pressing E
 	if keyboard_check_pressed(ord("E")){
 		state = States.Regular;
@@ -120,6 +116,10 @@ else if(state == States.Fishing) {
 		self.basicFish = round(basicFish);
 		self.salmonFish = round(salmonFish);
 		self.codFish = round(codFish);
+		//adding in check for knowing if wave should start
+		if(!global.wave_begin){
+			global.wave_begin = true;
+		}
 		fishing = false; // no longer fishing (note: not sure why this exists at one point it had a use but now im not sure but im not deleting it in case it does lol)
 		//instance_destroy(obj_minigame);
 	}

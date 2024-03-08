@@ -45,6 +45,7 @@
     {"name":"spr_overworld_1","order":2,"path":"sprites/spr_overworld_1/spr_overworld_1.yy",},
     {"name":"obj_goldenfishingrod","order":5,"path":"objects/obj_goldenfishingrod/obj_goldenfishingrod.yy",},
     {"name":"obj_sign_cod","order":4,"path":"objects/obj_sign_cod/obj_sign_cod.yy",},
+    {"name":"spr_player_melee","order":8,"path":"sprites/spr_player_melee/spr_player_melee.yy",},
     {"name":"spr_merchant_down","order":1,"path":"sprites/spr_merchant_down/spr_merchant_down.yy",},
     {"name":"spr_enemy_right","order":2,"path":"sprites/spr_enemy_right/spr_enemy_right.yy",},
     {"name":"pth_enemy_patrol","order":7,"path":"paths/pth_enemy_patrol/pth_enemy_patrol.yy",},
