@@ -112,10 +112,10 @@
     {"name":"inst_3D56C678","path":"rooms/FishingArea/FishingArea.yy",},
     {"name":"inst_3D0443F6","path":"rooms/FishingArea/FishingArea.yy",},
     {"name":"inst_28AE23BB","path":"rooms/FishingArea/FishingArea.yy",},
-    {"name":"inst_67597E3C","path":"rooms/FishingArea/FishingArea.yy",},
-    {"name":"inst_12033E6","path":"rooms/FishingArea/FishingArea.yy",},
     {"name":"inst_5A702035","path":"rooms/FishingArea/FishingArea.yy",},
     {"name":"inst_71988464","path":"rooms/FishingArea/FishingArea.yy",},
+    {"name":"inst_67597E3C","path":"rooms/FishingArea/FishingArea.yy",},
+    {"name":"inst_12033E6","path":"rooms/FishingArea/FishingArea.yy",},
   ],
   "isDnd": false,
   "layers": [

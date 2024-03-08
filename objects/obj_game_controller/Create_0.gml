@@ -10,7 +10,7 @@ global.time = 0
 
 //round_start_time = get_unix_time()
 
-global.wave_begin = true
+global.wave_begin = false
 
 // Rounds are the day cycle. So at the end of the round, 
 // it is night time and is time to sell to the black market dealer
