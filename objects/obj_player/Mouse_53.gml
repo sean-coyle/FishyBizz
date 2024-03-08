@@ -5,7 +5,7 @@ mouseX = mouse_x;
 mouseY = mouse_y;
 
 
-if(global.basicFish > 0){
+if(obj_player.basicFish > 0){
 	/*a valid hit is if the enemy is in distance of the player
 	and in the same direction of  of the mouse when it was clicked */
 
@@ -31,8 +31,8 @@ if(global.basicFish > 0){
 			if(angleDiff <= angleTolerance){
 				combatTarget.hp -= obj_player.melee_damage;
 			
-				if(hits > 2){
-					global.basicFish--; 
+				if(hits > self.durability){
+					obj_player.basicFish--; 
 					hits = 0; 
 				}
 				else {hits++;}

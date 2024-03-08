@@ -3,6 +3,7 @@
 // Inherit the parent event
 event_inherited();
 dialog.add(c_white, "Nice, those guys tend to come around during the night ...")
+dialog.add(c_white, "They also randomly patrol so watch out ...")
 dialog.add(c_white, "I recomend getting as much fish as you can during the day to fight them off ...")
 dialog.add(c_white, "I'll let you stay for 10 days ...");
 dialog.add(c_white, "Feel free to explore around and find fish at differnt ponds ...");

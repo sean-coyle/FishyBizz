@@ -47,6 +47,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tilesets","folderPath":"folders/Sprites/tilesets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GUI","folderPath":"folders/Objects/GUI.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -57,6 +58,7 @@
   "resources": [
     {"id":{"name":"get_unix_time","path":"scripts/get_unix_time/get_unix_time.yy",},},
     {"id":{"name":"spr_merchant_left","path":"sprites/spr_merchant_left/spr_merchant_left.yy",},},
+    {"id":{"name":"obj_gui","path":"objects/obj_gui/obj_gui.yy",},},
     {"id":{"name":"tml_time_cycle","path":"timelines/tml_time_cycle/tml_time_cycle.yy",},},
     {"id":{"name":"dialog_MerchantTutorial1","path":"objects/dialog_MerchantTutorial1/dialog_MerchantTutorial1.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
@@ -121,6 +123,7 @@
     {"id":{"name":"spr_ironFish","path":"sprites/spr_ironFish/spr_ironFish.yy",},},
     {"id":{"name":"obj_water_salmon","path":"objects/obj_water_salmon/obj_water_salmon.yy",},},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},},
+    {"id":{"name":"fn_default","path":"fonts/fn_default/fn_default.yy",},},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},},
     {"id":{"name":"path_merchant","path":"paths/path_merchant/path_merchant.yy",},},
     {"id":{"name":"obj_water_cod","path":"objects/obj_water_cod/obj_water_cod.yy",},},

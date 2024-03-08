@@ -111,9 +111,9 @@ else if(state == States.Fishing) {
 	if keyboard_check_pressed(ord("E")){
 		state = States.Regular;
 		//because fishing rate is a float we want to round before we update the globals
-		global.basicFish += round(basicFish);
-		global.salmonFish += round(salmonFish);
-		global.codFish += round(codFish);
+		self.basicFish += round(basicFish);
+		self.salmonFish += round(salmonFish);
+		self.codFish += round(codFish);
 		fishing = false; // no longer fishing (note: not sure why this exists at one point it had a use but now im not sure but im not deleting it in case it does lol)
 		//instance_destroy(obj_minigame);
 	}
