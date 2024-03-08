@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-randSpeed = random(5);
+randSpeed = clamp(random(5), 2, 5);
 vspeed = randSpeed;
 
