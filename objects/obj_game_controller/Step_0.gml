@@ -5,6 +5,12 @@ if global.time > round_length_minutes {
 	global.round_over = true
 }
 
+if keyboard_check_pressed(vk_space){
+	if room == MainMenu{
+	room_goto(FishingArea);	
+	}
+}
+
 // all this code is deprecated now, but i dont wanna remove it
 
 //var _current_time = get_unix_time()
