@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(vspeed <=1 and vspeed > 0)
+vspeed = 2;
 
 if(y >= obj_minigame.lineY2){
 	vspeed = -randSpeed;

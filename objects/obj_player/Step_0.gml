@@ -1,5 +1,6 @@
 /// @description player object
 // You can write your code in this editor
+
 x = clamp(x, sprite_width/2, room_width - sprite_width/2);
 y = clamp(y, sprite_height/2, room_height - sprite_height/2);
 
@@ -121,10 +122,14 @@ else if(state == States.Fishing) {
 	//logic for knowing what fish we are catching
 	if(fishingTarget.fishType == "cod"){
 		codFish += collection_rate * global.collectionModifer;
+		basicFish += collection_rate * global.collectionModifer*.3;
 	} else if(fishingTarget.fishType == "salmon"){
 		salmonFish += collection_rate * global.collectionModifer;
+		basicFish += collection_rate * global.collectionModifer*.3;
 	} else {
 		basicFish += collection_rate * global.collectionModifer;
+		salmonFish += collection_rate * global.collectionModifer * .1;
+		codFish += collection_rate * global.collectionModifer*.2;
 	}
 	
 	

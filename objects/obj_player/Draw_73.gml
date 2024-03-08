@@ -3,17 +3,17 @@
 with(fishingTarget){
 	draw_set_color(c_red);
 	draw_circle(x,y,10,true);
-	draw_set_valign(fa_middle);
-	draw_set_halign(fa_center)
-	draw_text(x,y, "E");
+
+	
+	draw_text(x-4,y-10, "E");
 }
 
 with(talkingTarget){
 	draw_set_color(c_red);
 	draw_circle(x,y - 32,10,true);
-	draw_set_valign(fa_middle);
-	draw_set_halign(fa_center)
-	draw_text(x,y - 32, "E");
+
+	
+	draw_text(x-4,y - 42, "E");
 }
 
 
