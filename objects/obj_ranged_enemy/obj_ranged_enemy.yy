@@ -36,8 +36,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_r_enemy_down",
-    "path": "sprites/spr_r_enemy_down/spr_r_enemy_down.yy",
+    "name": "spr_ranged_enemey",
+    "path": "sprites/spr_ranged_enemey/spr_ranged_enemey.yy",
   },
   "spriteMaskId": null,
   "visible": true,
