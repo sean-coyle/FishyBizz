@@ -15,6 +15,7 @@ if instance_exists(obj_enemy_spawner) {
 if time_at_end_of_wave != -1 {
 	if global.time >= time_at_end_of_wave + 3 {
 		global.wave_begin = true
+		time_at_end_of_wave = -1
 	}
 }
 
