@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+global.has_fished_for_first_time = false;
+
 //globals for amount of fish and collection modifer
 global.collectionModifer = 0.01;
 
