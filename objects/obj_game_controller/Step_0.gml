@@ -33,3 +33,6 @@ if time_at_end_of_wave != -1 {
 
 // Once the round is over, we should either teleport the player into the
 // black market room, or tell them to go to the exit of the current room
+
+
+//code for changing to scorescreen on death

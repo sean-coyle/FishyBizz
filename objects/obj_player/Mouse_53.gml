@@ -14,7 +14,7 @@ if(obj_player.basicFish > 0){
 	playerMouseAngle = point_direction(x, y, mouseX, mouseY);
 
 	//adding a tolerances
-	angleTolerance = 30;
+	angleTolerance = 45;
 
 	//find nearist enemey, if one exists then see if its a valid hit
 	combatTarget = instance_nearest(x,y, obj_basic_enemy);
