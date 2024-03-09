@@ -1,8 +1,8 @@
 /// @description melee attack
 // You can write your code in this editor
 //"lock" mouse pos on click 
-mouseX = mouse_x;
-mouseY = mouse_y;
+var mouseX = mouse_x;
+var mouseY = mouse_y;
 
 
 if(obj_player.basicFish > 0){
@@ -11,25 +11,26 @@ if(obj_player.basicFish > 0){
 
 	//compare angles: player and mouse, and enemey and player
 	//need the angle between mouse and player
-	playerMouseAngle = point_direction(x, y, mouseX, mouseY);
+	var playerMouseAngle = point_direction(x, y, mouseX, mouseY);
 
 	//adding a tolerances
-	angleTolerance = 30;
+	var angleTolerance = 45;
 
 	//find nearist enemey, if one exists then see if its a valid hit
 	combatTarget = instance_nearest(x,y, obj_basic_enemy);
 
 	if combatTarget != noone {
 	
-		enemyAngle = point_direction(x,y,combatTarget.x, combatTarget.y);
-		angleDiff = angle_difference(playerMouseAngle, enemyAngle);
+		var enemyAngle = point_direction(x,y,combatTarget.x, combatTarget.y);
+		var angleDiff = angle_difference(playerMouseAngle, enemyAngle);
 	
 		//is a valid hit check
 		//distance is close enough
-		distance = point_distance(x,y, combatTarget.x, combatTarget.y);
+		var distance = point_distance(x,y, combatTarget.x, combatTarget.y);
 		if(distance <= obj_player.melee_range){
 			if(angleDiff <= angleTolerance){
 				sprite_index = spr_player_melee;
+				audio_play_sound(snd_attack, 1, false);
 				combatTarget.hp -= obj_player.melee_damage;
 				
 				if(hits > self.durability){

@@ -4,6 +4,10 @@ x = clamp(x, sprite_width/2, room_width - sprite_width/2);
 y = clamp(y, sprite_height/2, room_height - sprite_height/2);
 
 if hp <= 0 {
+	global.basicFish = round(basicFish);
+	global.salmonFish = round(salmonFish);
+	global.codFish = round(codFish);
+	room_goto(ScoreBoard);
 	instance_destroy(self);
 }
 
@@ -92,6 +96,7 @@ if (state == States.Regular){
 		//double check target exists
 		if instance_exists(fishingTarget) {
 			state = States.Fishing; //update state to fishing
+			audio_play_sound(snd_reel,1, false);
 			src_minigame(x,y, layer); //start the minigame
 		}
 		
@@ -112,6 +117,7 @@ else if(state == States.Fishing) {
 	//player stops fishing by pressing E
 	if keyboard_check_pressed(ord("E")){
 		state = States.Regular;
+		audio_stop_sound(snd_reel);
 		//because fishing rate is a float we want to round before we update the globals
 		self.basicFish = round(basicFish);
 		self.salmonFish = round(salmonFish);
