@@ -19,7 +19,7 @@ if(instance_exists(obj_player)){
 
 	if(room != TutorialArea)
 	{
-		draw_text((room_width / 2) - 10, 20, $"TIME: {global.time} WAVE: {global.wave} ENEMY COUNT: {obj_enemy_spawner.enemies_left}");
+		draw_text((room_width / 2) - 10, 20, $"WAVE: {global.wave} ENEMY COUNT: {obj_enemy_spawner.remaining_enemies}");
 	}
 
 	//use to draw fish sprite next to fish numbers

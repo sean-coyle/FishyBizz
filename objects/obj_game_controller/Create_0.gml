@@ -20,8 +20,7 @@ global.time = 0
 
 global.wave_begin = false
 
-// Rounds are the day cycle. So at the end of the round, 
-// it is night time and is time to sell to the black market dealer
+
 global.round_over = false
 
 
