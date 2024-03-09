@@ -35,4 +35,6 @@ switch(numOfStars){
 		scoreMsg = spr_score_1;
 	break;
 	
+	default:
+		scoreMsg = spr_score_5;
 }

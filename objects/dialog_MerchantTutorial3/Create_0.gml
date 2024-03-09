@@ -10,3 +10,4 @@ dialog.add(c_white, "Feel free to explore around and find fish at differnt ponds
 dialog.add(c_white, "You can also find me at my shop, I'll take fish for upgrades ...");
 dialog.add(c_yellow, "You have finished the tutorial!");
 
+

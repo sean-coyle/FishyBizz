@@ -17,7 +17,10 @@ if(instance_exists(obj_player)){
 	draw_rectangle_color(235, 0, (room_width), 40, c_ltgrey, c_ltgrey, c_ltgrey, c_ltgrey, false)
 	draw_set_alpha(1);
 	
-	draw_text((room_width / 2) - 10, 20, $"TIME: {global.time} WAVE: {global.wave} ENEMY COUNT: {obj_enemy_spawner.enemies_left}");
+	if(room != TutorialArea)
+	{
+		draw_text((room_width / 2) - 10, 20, $"TIME: {global.time} WAVE: {global.wave} ENEMY COUNT: {obj_enemy_spawner.enemies_left}");
+	}
 	//use to draw fish sprite next to fish numbers
     //draw_sprite(spr_, global.health, 30, 50);
 	//draw_sprite(spr_, global.health, 30, 50);
