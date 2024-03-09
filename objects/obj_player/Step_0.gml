@@ -4,6 +4,10 @@ x = clamp(x, sprite_width/2, room_width - sprite_width/2);
 y = clamp(y, sprite_height/2, room_height - sprite_height/2);
 
 if hp <= 0 {
+	global.basicFish = round(basicFish);
+	global.salmonFish = round(salmonFish);
+	global.codFish = round(codFish);
+	room_goto(ScoreBoard);
 	instance_destroy(self);
 }
 

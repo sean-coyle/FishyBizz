@@ -3,9 +3,6 @@
 
 //globals for amount of fish and collection modifer
 global.collectionModifer = 0.01;
-global.basicFish = 0;
-global.codFish = 0;
-global.salmonFish = 0;
 
 enum States{
 	Fishing,

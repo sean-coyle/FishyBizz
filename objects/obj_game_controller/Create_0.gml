@@ -18,3 +18,8 @@ global.round_over = false
 
 
 time_at_end_of_wave = -1
+
+
+global.basicFish = 0;
+global.codFish = 0;
+global.salmonFish = 0;
