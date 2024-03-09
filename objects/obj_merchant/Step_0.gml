@@ -29,7 +29,8 @@ if(talking){
 
 //Logic for tutorial
 if(room == TutorialArea){
-	if(global.basicFish > 0 and self.dialog != dialog_MerchantTutorial3){
+	path_end();
+	if(obj_player.basicFish > 0 and self.dialog != dialog_MerchantTutorial3){
 		dialog = dialog_MerchantTutorial2;
 	}
 }
