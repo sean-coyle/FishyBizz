@@ -9,10 +9,18 @@ if room == MainMenu{
 			room_goto(FishingArea);
 		}
 	}
+	
+	if keyboard_check_pressed(ord(("C"))){
+		room_goto(ControlsAndCredits);
+	}
 }
 
 
-
+if (room == ControlsAndCredits){
+	if keyboard_check_pressed(vk_space){
+		room_goto(MainMenu);
+	}
+}
 
 
 
