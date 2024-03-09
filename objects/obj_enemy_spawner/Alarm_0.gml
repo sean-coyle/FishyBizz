@@ -14,12 +14,7 @@ if enemies_left > 0 {
 	enemies_left -= 1
 }
 else {
-	if global.wave_begin == true {
-		global.wave++
-		max_enemy_count = global.wave*enemy_per_level
-		enemies_left = max_enemy_count
-	}
-	global.wave_begin = false
+	global.wave++
 }
 
 alarm[0] = spawn_rate
