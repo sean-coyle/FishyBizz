@@ -10,5 +10,4 @@ if global.wave_begin == true {
 	remaining_enemies = enemies_left
 		
 	global.wave_begin = false;
-	
 }

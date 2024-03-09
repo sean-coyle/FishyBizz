@@ -5,15 +5,23 @@ if global.time > round_length_minutes {
 	global.round_over = true
 }
 
+if global.round_over == true {
+	room_goto(ScoreBoard)
+}
+
 if instance_exists(obj_enemy_spawner) {
-	if obj_enemy_spawner.enemies_left == 0 and time_at_end_of_wave == -1 {
-		time_at_end_of_wave = global.time
-		
+	if instance_exists(obj_player) {
+		if obj_enemy_spawner.enemies_left == 0 
+			and time_at_end_of_wave == -1 
+			and global.has_fished_for_first_time {
+			 
+			time_at_end_of_wave = global.time
+		}	
 	}
 }
 
 if time_at_end_of_wave != -1 {
-	if global.time >= time_at_end_of_wave + 3 {
+	if global.time >= time_at_end_of_wave + 2 {
 		global.wave_begin = true
 		time_at_end_of_wave = -1
 	}

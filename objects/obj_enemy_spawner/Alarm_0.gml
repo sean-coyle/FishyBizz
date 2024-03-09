@@ -14,7 +14,9 @@ if enemies_left > 0 {
 	enemies_left -= 1
 }
 else {
-	global.wave++
+	if global.wave_begin == true {
+		global.wave++
+	}
 }
 
 alarm[0] = spawn_rate
