@@ -3,6 +3,11 @@
 
 global.has_fished_for_first_time = false;
 
+global.basicFish = 0;
+global.codFish = 0;
+global.salmonFish = 0;
+
+
 //globals for amount of fish and collection modifer
 global.collectionModifer = 0.01;
 
