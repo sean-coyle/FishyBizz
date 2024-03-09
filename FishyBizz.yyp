@@ -101,6 +101,7 @@
     {"id":{"name":"dialog_basic_sign1","path":"objects/dialog_basic_sign1/dialog_basic_sign1.yy",},},
     {"id":{"name":"obj_path_enemy","path":"objects/obj_path_enemy/obj_path_enemy.yy",},},
     {"id":{"name":"src_minigame","path":"scripts/src_minigame/src_minigame.yy",},},
+    {"id":{"name":"shd_day_cycle","path":"shaders/shd_day_cycle/shd_day_cycle.yy",},},
     {"id":{"name":"spr_ranged_enemey","path":"sprites/spr_ranged_enemey/spr_ranged_enemey.yy",},},
     {"id":{"name":"spr_fish_bullet","path":"sprites/spr_fish_bullet/spr_fish_bullet.yy",},},
     {"id":{"name":"spr_enemy_left","path":"sprites/spr_enemy_left/spr_enemy_left.yy",},},
