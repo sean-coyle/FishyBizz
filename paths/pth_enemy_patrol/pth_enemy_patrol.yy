@@ -1,0 +1,25 @@
+{
+  "resourceType": "GMPath",
+  "resourceVersion": "1.0",
+  "name": "pth_enemy_patrol",
+  "closed": true,
+  "kind": 0,
+  "parent": {
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
+  },
+  "points": [
+    {"speed":100.0,"x":992.0,"y":160.0,},
+    {"speed":100.0,"x":960.0,"y":160.0,},
+    {"speed":100.0,"x":960.0,"y":384.0,},
+    {"speed":100.0,"x":256.0,"y":384.0,},
+    {"speed":100.0,"x":256.0,"y":288.0,},
+    {"speed":100.0,"x":224.0,"y":288.0,},
+    {"speed":100.0,"x":224.0,"y":416.0,},
+    {"speed":100.0,"x":736.0,"y":416.0,},
+    {"speed":100.0,"x":736.0,"y":512.0,},
+    {"speed":100.0,"x":736.0,"y":416.0,},
+    {"speed":100.0,"x":992.0,"y":416.0,},
+  ],
+  "precision": 4,
+}
